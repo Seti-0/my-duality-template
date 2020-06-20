@@ -20,6 +20,7 @@
 Packages/
 obj/
 bin/
+!app.config
 
 # Duality
 Backup/
@@ -39,7 +40,8 @@ Backup/
 !Windows7.DesktopIntegration.dll
 
 # Soulstone specific
-!SoulstoneUtility.core.dll
-!SoulstoneUtility.core.pdb
 !SoulstoneSerialization.editor.dll
 !SoulstoneSerialization.editor.pdb
+
+# Project Specific
+Experiments/
